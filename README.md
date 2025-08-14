@@ -1,14 +1,14 @@
-# Pokédex
+# 🐉 Pokédex
 
 En interaktiv Pokédex bygget med **Vite** og **Vanilla JavaScript**. Søk og utforsk alle Pokémon tilgjengelig i [PokeAPI](https://pokeapi.co/).
 
-## 🚀 Funksjoner
+## ✨ Funksjoner
 
-- Søk etter Pokémon via navn eller ID  
-- Se høyde, vekt, typer og statistikk  
-- Responsivt design for mobil og desktop  
+- 🔎 **Søk etter Pokémon** via navn eller ID  
+- 📊 **Detaljert informasjon**: høyde, vekt, typer og statistikk  
+- 📱 **Responsivt design**: fungerer på både mobil og desktop  
+- ⚡ **Rask og moderne**: bygget med Vite for optimal ytelse  
 
 ## 🌐 Live demo
 
-[vite-pokedex-seven.vercel.app](https://vite-pokedex-seven.vercel.app/)
-
+🎮 [vite-pokedex-seven.vercel.app](https://vite-pokedex-seven.vercel.app/)
