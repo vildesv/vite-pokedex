@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <title>Vite - Pokédex</title>
+  </head>
+  <body>
+    <header>
+      <h1>Pokédex</h1>
+      <form id="searchForm">
+        <input type="text" id="searchInput" placeholder="Søk Pokémon..." />
+        <button type="submit">Søk</button>
+        <button type="button" id="clearSearch">❌</button>
+      </form>
+      <select id="typeFilter">
+        <option value="">Alle typer</option>
+        <option value="grass">Grass</option>
+        <option value="fire">Fire</option>
+        <option value="water">Water</option>
+        <option value="bug">Bug</option>
+        <option value="normal">Normal</option>
+        <option value="electric">Electric</option>
+        <option value="poison">Poison</option>
+        <option value="ground">Ground</option>
+        <option value="fairy">Fairy</option>
+        <option value="fighting">Fighting</option>
+        <option value="psychic">Psychic</option>
+        <option value="rock">Rock</option>
+        <option value="ghost">Ghost</option>
+        <option value="ice">Ice</option>
+        <option value="dragon">Dragon</option>
+      </select>
+    </header>
+
+    <main id="pokemonContainer" class="grid"></main>
+
+    <div class="pagination">
+      <button id="prevBtn">◀ Forrige</button>
+      <button id="nextBtn">Neste ▶</button>
+    </div>
+
+    <div id="pokemonModal" class="modal hidden">
+      <div class="modal-content">
+        <span id="closeModal">&times;</span>
+        <div id="pokemonDetails"></div>
+      </div>
+    </div>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
